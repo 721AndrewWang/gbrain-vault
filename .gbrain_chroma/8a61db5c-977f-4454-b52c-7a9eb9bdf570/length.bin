@@ -1,1 +1,0 @@
-invalid type: string "故障处理\n# 故障处理\n\n应急响应和故障恢复流程。\n\n## P0: 服务不可用\n\n### Hermes Gateway 宕机\n```\n1. 检查: hermes gateway status\n2. 重启: hermes gateway restart\n3. 验证: curl localhost:8000/health\n4. 日志: tail -50 ~/.hermes/logs/gateway.log\n```\n**自动监控**: Gateway Health Monitor (每30分钟)\n\n### ECS 不可达\n```\ne]]\n
